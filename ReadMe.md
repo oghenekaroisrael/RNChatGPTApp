@@ -1,9 +1,9 @@
-````markdown
-# ChatApp
+# Reacy Native Chat GPT App (Omoi)
 
 ## Overview
 
-ChatApp is a mobile application developed using React Native and Expo. It allows users to engage in a chat with an AI language model (GPT-3.5-turbo) provided by OpenAI. Users can send messages, and the AI model responds with generated content based on the conversation.
+omoi is a mobile application developed using React Native and Expo. It allows users to engage in a chat with an AI language model (GPT-3.5-turbo) provided by OpenAI. Users can send messages, and the AI model responds with generated content based on the conversation.
+More features will be added in due time.
 
 ## Features
 
@@ -39,15 +39,24 @@ The project follows a modular structure for better maintainability:
 
   - `api.ts`: Contains the function `sendChatRequest` responsible for making requests to the OpenAI API.
 
-- **screens:**
-  - `App`: The main screen that integrates the chat functionality.
+- **interfaces:**
+
+  - `interfaces.ts`: Contains all used interfaces
+
+- **assets:**
+
+  - `interfaces.ts`: Contains all used interfaces for the project
+
+- **assets:**
+  - contains all fonts and images used for this project.
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/ChatApp.git
+   git clone https://github.com/oghenekaroisrael/ChatApp.git
    ```
+
 ````
 
 2. **Navigate to the project directory:**
@@ -84,7 +93,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Troubleshooting
 
-If you encounter any issues or have questions, refer to the project's [issue tracker](https://github.com/your-username/ChatApp/issues) on GitHub.
+If you encounter any issues or have questions, refer to the project's [issue tracker](https://github.com/oghenekaroisrael/ChatApp/issues) on GitHub.
 
 ## Contributing
 
@@ -93,3 +102,4 @@ Feel free to contribute to the project by submitting bug reports, feature reques
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md). Please review the license file for more details.
+````
