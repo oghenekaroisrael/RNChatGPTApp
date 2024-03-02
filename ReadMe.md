@@ -53,11 +53,10 @@ The project follows a modular structure for better maintainability:
 ## Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/oghenekaroisrael/ChatApp.git
    ```
-
-````
 
 2. **Navigate to the project directory:**
 
@@ -102,4 +101,7 @@ Feel free to contribute to the project by submitting bug reports, feature reques
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md). Please review the license file for more details.
-````
+
+```
+
+```
